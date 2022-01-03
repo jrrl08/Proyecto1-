@@ -3,9 +3,33 @@ import math
 
 class deber:
     #¿De cuál tipo de dato sería la variable donde almacena lo siguiente?
-    #def ejercicio1(self)
     def ejercicio1(self):   
-     pass
+      variable1= "hola mundo"
+      variable2= True
+      variable3= ",,1"
+      variable4= ",,c"
+      variable5= 256
+      variable6= 8>19
+      print(type(variable1))
+      print(type(variable2))
+      print(type(variable3))
+      print(type(variable4))
+      print(type(variable5))
+      print(type(variable6))
+    # ¿Siguiendo la prioridad de operadores, convierta a expresión matemática,
+    # resuelva e indique en cuál tipo de variable almacenará el resultado de las
+    # siguientes expresiones: 
+    def ejercicio2(self):  
+        opercion1= (5+3*2) +9 > 3 * 5 * 14 % 3
+        opercion2= 2 *(4 - 10 + 8)/2* 36 *(1/2)
+        opercion3= 260 / 12 + 54 % 3 - 85 % 7
+        opercion4= (48 < 2 * 3) or (2 * 7 < 12)
+        opercion5= ((8 > 2) or (932 < 23) ) and 4 == 2
+        print("El resultado de la operacion 1 es de tipo booleano: " + str(opercion1))
+        print("El resultado de la operacion 2 es de tipo flotante: " + str(opercion2))
+        print("El resultado de la operacion 3 es de tipo flotante: " + str(opercion3))
+        print("El resultado de la operacion 4 es de tipo booleano: " + str(opercion4))
+        print("El resultado de la operacion 5 es de tipo booleano: " + str(opercion5))
     #Dados dos (2) números calcule la suma, resta, multiplicación, división y módulo.
     def ejercicio4(self,num1,num2):
          sum=num1+num2
@@ -91,6 +115,7 @@ class deber:
         print ()    
 tarea = deber()
 #tarea.ejercicio1()
+#tarea.ejercicio2()
 # n1 = int(input("ingrese numero1=> "))
 # n2 = int(input("ingrese numero2=> "))
 # tarea.ejercicio4(n1,n2)
